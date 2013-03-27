@@ -1,0 +1,24 @@
+#title {
+	-fx-font-family: "Helvetica";
+	-fx-font-size:20px;
+	-fx-font-weight:bold;
+	-fx-padding:10.0;
+	-fx-effect: dropshadow( one-pass-box , white , 0, 0.0 , 0 , 1 );
+}
+
+.root {
+	-fx-background-color: 
+     #c3c4c4,
+        linear-gradient(#d6d6d6 50%, white 100%),
+        radial-gradient(center 50% -40%, radius 200%, #e6e6e6 45%, rgba(230,230,230,0) 50%);
+    -fx-background-insets: 0,9 9 8 9,9,10,11;
+    -fx-padding: 15 30 15 30;
+    -fx-font-family: "Helvetica";
+	-fx-font-size:14px;
+    -fx-text-fill: #311c09;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.1) , 2, 0.0 , 0 , 1);
+}
+
+.separator .line {
+    -fx-background: BLACK;
+}
